@@ -243,8 +243,7 @@
                     var gallery = new MaterialPhotoGallery(elem);
                 });
 
-
-                window.addEventListener("load", function(){
+                $(window).bind("load", function() {
                     $('.m-p-g').removeClass('hidden');
                     $('.loading').remove();
                 });
