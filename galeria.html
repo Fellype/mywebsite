@@ -243,10 +243,11 @@
                     var gallery = new MaterialPhotoGallery(elem);
                 });
 
-                window.onload = function() {
+
+                window.addEventListener("load", function(){
                     $('.m-p-g').removeClass('hidden');
                     $('.loading').remove();
-                };
+                });
 
             </script>
 
