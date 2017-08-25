@@ -106,6 +106,14 @@ $('#selectLanguageDropdown').localizationTool({
             'en_GB' : 'Experience enriching with the degree course, mainly in the disciplines of psychology where I improved my knowledge in User Experience.',
             'es_ES' : 'Experiencia enriquecedora con el curso de licenciatura, principalmente por cuenta de las disciplinas de psicología donde perfeccioné mis conocimientos en Experiencia de Usuario.'
         },
+        'designer gráfico' : {
+            'en_GB' : 'Webdesigner & Graphic Designer ',
+            'es_ES' : 'Webdesigner Diseñador gráfico'
+        },
+        'Línguas' : {
+            'en_GB' : 'Languages',
+            'es_ES' : 'Lenguas'
+        },
         'Inglês' : {
             'en_GB' : 'English',
             'es_ES' : 'Inglés'
@@ -122,7 +130,7 @@ $('#selectLanguageDropdown').localizationTool({
             'en_GB' : 'Get to know some of my works',
             'es_ES' : 'Conozca algunos de mis trabajos'
         },
-        'experiências' : {
+        'class:m-exp' : {
             'en_GB' : 'Experiences',
             'es_ES' : 'Experiencias'
         },

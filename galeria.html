@@ -166,14 +166,18 @@
 </div>
         <div class="col right col-md-8 col-sm-12">
         <div class="menu">
-            <a href="/">experiências</a>
+            <a class="m-exp" href="/">experiências</a>
             <a class="active" href="">galeria</a>
         </div>
         <div class="gallery-wrapper">
             <div class="section">
             <h3>Conheça alguns dos meus trabalhos</h3>
 
-            <div class="m-p-g">
+            <div class="loading">
+
+            </div>
+
+            <div class="m-p-g hidden">
                 <div class="m-p-g__thumbs" data-google-image-layout data-max-height="150">
 
 
@@ -238,6 +242,12 @@
                 document.addEventListener('DOMContentLoaded', function() {
                     var gallery = new MaterialPhotoGallery(elem);
                 });
+
+                window.onload = function() {
+                    $('.m-p-g').removeClass('hidden');
+                    $('.loading').remove();
+                };
+
             </script>
 
             </div>
