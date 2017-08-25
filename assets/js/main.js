@@ -122,10 +122,6 @@ $('#selectLanguageDropdown').localizationTool({
             'en_GB' : 'Spanish',
             'es_ES' : 'Español'
         },
-        'incompleto' : {
-            'en_GB' : 'incomplete',
-            'es_ES' : 'incompleto'
-        },
         'Conheça alguns dos meus trabalhos' : {
             'en_GB' : 'Get to know some of my works',
             'es_ES' : 'Conozca algunos de mis trabajos'
