@@ -134,6 +134,16 @@ $('#selectLanguageDropdown').localizationTool({
             'en_GB' : 'Gallery',
             'es_ES' : 'Galería'
         },
+        'Prototipos em andamento' : {
+            'en_GB' : 'Prototypes in progress',
+            'es_ES' : 'Prototipos en curso'
+        },
+        'Se imagens falharem em abrir, tente recarregar a página' : {
+            'en_GB' : 'If images fail to open, try reloading the page',
+            'es_ES' : 'Si las imágenes no se abren, intente volver a cargar la página'
+        },
+
+        
         
     }
 });
